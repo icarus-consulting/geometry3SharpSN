@@ -1,0 +1,4 @@
+artifacts/
+build/bin/
+build/obj/
+.nuke/temp/
