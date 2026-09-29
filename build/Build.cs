@@ -7,7 +7,7 @@ using static Nuke.Common.Tools.DotNet.DotNetTasks;
 
 class Build : NukeBuild
 {
-    public static int Main() => Execute<Build>(x => x.Pack);
+    public static int Main() => Execute<Build>(x => x.Publish);
 
     AbsolutePath ProjectDirectory => RootDirectory / "geometry3Sharp";
     AbsolutePath ProjectFile => ProjectDirectory / "geometry3Sharp_netstandard.csproj";
